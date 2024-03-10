@@ -1,0 +1,79 @@
+th{
+    background-color:gray;
+}
+#delete-btn{
+background-color:red;
+border: 0;
+padding: 3px 10px;
+border-radius:3px;
+cursor: pointer;
+}
+#edit-btn{
+background-color:blue;
+border: 0;
+padding: 3px 10px;
+border-radius:3px;
+cursor: pointer;
+}
+body{
+background-color:pink;
+}
+.class{
+background-color:yellow;
+color:green;
+}
+.error{
+color:red;
+background-color:#efdcdd;
+padding: 10px;
+margin: 1px;
+display:none;
+position: absolute;
+right: 61%;
+top: 15px;
+}
+.success{
+color: green;
+background-color: #def1d8;
+padding: 5px;
+margin: 1px;
+display:none;
+position: absolute;
+right: 62%;
+top: 55px;
+
+}
+.process{
+    background-color: aqua;
+    color: azure;
+    border: 1px solid brown;
+
+}
+
+.pagination{
+    display: inline-block;
+}
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active){background-color:#ddd;}
+button{
+    
+    background-color:#adf3d9;
+    border-radius:5px;
+    margin: 5px;
+    border: 1px solid green;
+    border-width: 2px;
+    cursor: pointer;
+    }
+    .pagination a.disable{
+        pointer-events: none;
+    }
+    
